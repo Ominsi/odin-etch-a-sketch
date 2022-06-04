@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: tan;
+}
+.board {
+  margin-top: 5px;
+  background-color: red; 
+  padding: 10px;
+  border-radius: 10px;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: space-between;
+  border-style: outset;
+  border-width: 20px;
+  border-color: brown;
+}
+#grid {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 650px;
+  height: 650px;
+  gap: 0;
+  line-height: 0%;
+}
+
+.item {
+  background-color: whitesmoke;
+}
+
+.hovered {
+  background-color: rgb(51, 51, 51);
+}
+
+.knobs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% 10%;
+}
+
+.knob {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  border-color: whitesmoke;
+  border-style: outset;
+  border-width: 10px;
+}
+
+button {
+  background-color: red;
+  color: whitesmoke;
+  border-color: brown;
+  font-size: 16px;
+}
